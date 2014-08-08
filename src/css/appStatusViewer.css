@@ -1,0 +1,50 @@
+.appStatusViewer_Container {
+	float: left;
+	display: inline-block;
+	padding: 7px 0px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	height: 32px;
+	width: 45px;
+}
+
+.appStatusViewer_SubContainer {
+	background: none repeat scroll 0 0 rgba(29, 28, 28, 1);
+	border: 1px solid;
+	border-radius: 10px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	box-shadow: 0px 0px 6px 2px #656565;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=6);
+}
+
+.appStatusViewer_Ticks {
+	border-radius: 4px;
+	height: 8px;
+	margin: -6px 2px 0;
+	vertical-align: middle;
+	width: 8px;
+	display: inline-block;
+}
+
+.asv_a {
+	background: lime;
+}
+
+.asv_t {
+	background: yellow;
+}
+
+.asv_e {
+	background: orange;
+}
+
+.asv_d {
+	background: grey;
+}
